@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "ConsoleApp2": {
+      "commandName": "Project",
+      "commandLineArgs": "https://www.pja.edu.pl/",
+      "workingDirectory": "C:\\Users\\aysen\\Desktop\\apbd\\tutorials\\tut1\\ConsoleApp2"
+    }
+  }
+}

@@ -9,7 +9,8 @@ namespace ConsoleApp2
     {
         static async Task Main(string[] args) //without async , await won't work
         {
-            var url = @"https://www.pja.edu.pl/"; // @ for escape characters
+            var url = args[0]; 
+            //var url = @"https://www.pja.edu.pl/"; // @ for escape characters
             var httpClient = new HttpClient(); //Http Get req will take the page's source code
 
             var response = await httpClient.GetAsync(url); // async --> paralel thread
