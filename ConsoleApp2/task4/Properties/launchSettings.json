@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "task4": {
+      "commandName": "Project",
+      "commandLineArgs": "https://www.pja.edu.pl/~msyd/nai-eng.html"
+    }
+  }
+}
